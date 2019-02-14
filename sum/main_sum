@@ -1,0 +1,17 @@
+import (
+"fmt"
+"sum"
+"os"
+"strconv
+)
+func main() {
+v1 :=os.Args;
+v2, err =strconv.preseInt(v1[1],10,64];
+v3, err =strconv.preseInt(v1[2],10,64];
+
+
+tot := sum.SumInt8(v2, v3)
+fmt.println(tot);
+fmt.println(err);
+}
+
